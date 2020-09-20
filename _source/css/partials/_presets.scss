@@ -1,0 +1,105 @@
+@mixin paragrafos($tc: $text, $fw: $fwLight, $fs: 20px, $lh: 1.25, $mb: 25px, $mbLOT: 0) {
+    color: $tc;
+    font-size: $fs;
+    font-weight: $fw;
+    margin-bottom: $mb;
+    line-height: $lh;
+    &:last-of-type {
+        margin-bottom: $mbLOT;
+    }
+    a {
+        color: $tc;
+        font-size: $fs;
+        font-weight: $fw;
+        line-height: $lh;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    strong {
+        font-weight: bold;
+        color: $tc;
+        font-size: $fs;
+        line-height: $lh;
+    }
+    @media screen and (max-width: 430px) {
+        font-size: $fs - 2;
+        a, strong {
+            font-size: $fs - 2;
+        }
+    }
+}
+
+@mixin fixedElement($w, $h, $t: inherit, $l: inherit, $r: inherit, $b: inherit) {
+    position: fixed;
+    top: $t;
+    left: $l;
+    right: $r;
+    bottom: $b;
+    z-index: 9;
+    display: block;
+    width: $w;
+    height: $h;
+}
+
+@mixin gradientSecondary() {
+    @include gradient(135deg, $secondaryDark, $secondaryLight);
+}
+@mixin gradientPrimary() {
+    @include gradient(135deg, $primaryDark, $primaryLight);
+}
+@mixin gradientPrimaryToSecondary() {
+    @include gradient(135deg, $primaryDark, $secondary);
+}
+
+@mixin title_h1($tc: $primary) {
+    @include letterSpacing(-10);
+    display: block;
+    position: relative;
+    color: $tc;
+    font-size: 36px;
+    font-weight: $fwBold;
+    line-height: 1;
+    margin-bottom: 25px;
+    @media screen and (max-width: 420px) {
+        font-size: 30px;
+    }
+    &:before {
+        @include afterTitles;
+    }
+    &:after {
+        @include beforeTitles;
+    }
+}
+@mixin afterTitles($bg: #e6e6e6) {
+    content: '';
+    display: block;
+    width: 100%;
+    max-width: 140px;
+    height: 1px;
+    background: $bg;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    z-index: 1;
+}
+@mixin beforeTitles() {
+    @include gradientSecondary();
+    @include roundedAll(3px);
+    content: '';
+    display: block;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    z-index: 2;
+}
+
+@mixin shadowDefault($alpha: 0.05) {
+    box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, $alpha);
+}
+@mixin shadowDefaultHover($alpha: 0.20) {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, $alpha);
+}

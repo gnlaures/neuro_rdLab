@@ -1,0 +1,81 @@
+// Layout Colors
+$primaryLight: #683d97;
+$primary: #52297f;
+$primaryDark: #441f6e;
+
+$secondaryLight: #a9dcfe;
+$secondary: #84c4f0;
+$secondaryDark: #6aabd8;
+
+$analiseAgua: #0082cd;
+$analiseEfluentes: #595f77;
+$analiseFertilizantes: #81a738;
+$analiseCarvao: #434343;
+$analiseSolo: #75675c;
+$analiseResiduos: #80440f;
+$analiseAmostras: #767675;
+$analiseArgilominerais: #aea9a6;
+
+$white: #fff;
+$white2: #f4f4f4;
+$white3: #f8f8f8;
+
+$mutedGray: #ededed;
+$lightGray: #d2d2d2;
+$mediumGray: #c5c5c5;
+$darkGray: #4c4c4c;
+$baseGray: #898989;
+
+$defaultRadius: 10px;
+
+$feedbackSuccess: #1ca33d;
+$feedbackLoad: #eee;
+$feedbackError: #f05555;
+
+$whatsappPrimary: #25d366;
+$whatsappSecondary: #1eb456;
+
+// Sizes
+$containerWidth: 1200px;
+$containerBigWidth: 1440px;
+$maxRowWidth: 1920px;
+
+// media folders
+$media_assets : "../../media/img/assets";
+$media_icons : "../../media/img/icons";
+$media_content : "../../media/img/content";
+//example: background: url(#{$media_assets}image.png);
+
+// text
+@font-face {
+	font-family: 'Peugeot';
+	src: url('../../media/type/Peugeot-Light.woff2') format('woff2'),
+	url('../../media/type/Peugeot-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Peugeot';
+	src: url('../../media/type/Peugeot-Bold.woff2') format('woff2'),
+	url('../../media/type/Peugeot-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Peugeot';
+	src: url('../../media/type/Peugeot.woff2') format('woff2'),
+	url('../../media/type/Peugeot.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+$text: #919191;
+$placeholderText: lighten($text, 15%);
+$fontFamily__default: 'Peugeot', 'Arial', 'Calibri', sans-serif;
+$fwLight: 300; 
+$fwRegular: 400;
+$fwBold: 700;

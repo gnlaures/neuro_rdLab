@@ -1,0 +1,25 @@
+// c-cardAnalyse
+@media screen and (max-width: 600px) {
+	.c-cardAnalyse.--horizontal {
+		flex-wrap: wrap;
+		.c-cardAnalyse__figure {
+			@include flexWidth(120px);
+			height: 120px;
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.c-cardAnalyse__title {
+			@include flexWidth(100%);
+			margin-top: 35px;
+			padding-left: 0;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+	.c-cardAnalyse {
+		&__figure {
+			@include flexWidth(120px);
+			height: 120px;
+		}
+	}
+}
