@@ -269,7 +269,7 @@
         min-height: 100px;
         resize: vertical;
     }
-    label {
+    label, .fakeLabel {
         color: $primary;
         font-weight: $fwBold;
         display: block;
@@ -1469,5 +1469,32 @@ $c_subMenuHover_defaultHeight: 30px;
                 color: $primary;
             }
         }
+    }
+}
+.c-cardCtaAnalyse {
+    h3 {
+        @include title_h1();
+        font-size: 24px;
+        color: $secondary;
+        margin-bottom: 10px;
+        &:before, &:after {
+            display: none;
+        }
+    }
+    i {
+        @include roundedAll(50%);;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        background: $mutedGray;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: $fwBold;
+        color: $primary;
+        margin-bottom: 15px;
     }
 }

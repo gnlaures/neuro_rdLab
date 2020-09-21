@@ -1464,6 +1464,49 @@
 		}
 	}
 }
+.s-ctaAnalyse {
+	h2 {
+		@include title_h1();
+		margin-bottom: 40px;
+	}
+	p {
+		@include paragrafos();
+		max-width: 780px;
+	}
+	&__l {
+		flex: 1 1 auto;
+		padding-right: 50px;
+		ul {
+			padding-top: 15px;
+		}
+		li {
+			margin-bottom: 35px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&__r {
+		@include flexWidth(400px);
+	}
+	.c-simpleForm {
+		@include roundedAll();
+		@include shadowDefault();
+		border: 1px solid $mutedGray;
+		background: $white;
+		padding: 30px;
+		li {
+			margin-bottom: 10px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		li.liCheckbox div label {
+			font-size: 16px;
+			line-height: 1;
+		}
+	}
+}
 
 // #page
 #page__components {

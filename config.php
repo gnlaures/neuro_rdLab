@@ -51,6 +51,11 @@
 			$file = 'page_contato.php';
 			$title_page = 'Contato - '.$title;
 			break;
+
+		case 'solicitar-analise':
+			$file = 'page_solicitarAnalise.php';
+			$title_page = 'Solicitação de Análise - '.$title;
+			break;
 		
 		case 'lgpd':
 			$file = 'page_lgpd.php';

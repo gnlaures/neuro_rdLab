@@ -596,3 +596,29 @@
         }
     }
 }
+
+// ctaAnalyse
+@media screen and (max-width: 820px) {
+    .s-ctaAnalyse {
+        &__l {
+            padding-right: 40px;
+        }
+        &__r {
+            @include flexWidth(300px);
+        }
+    }
+}
+@media screen and (max-width: 680px) {
+    .s-ctaAnalyse {
+        .u-containerFlex {
+            flex-wrap: wrap;
+        }
+        &__l {
+            padding-right: 0;
+            margin-bottom: 60px;
+        }
+        &__r {
+            @include flexWidth(100%);
+        }
+    }
+}
