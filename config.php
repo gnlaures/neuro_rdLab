@@ -52,14 +52,9 @@
 			$title_page = 'Contato - '.$title;
 			break;
 		
-		case 'termos-de-uso':
-			$file = 'page_termosUso.php';
-			$title_page = 'Termos de Uso - '.$title;
-			break;
-		
-		case 'politica-de-privacidade':
-			$file = 'page_politicaPrivacidade.php';
-			$title_page = 'Política de Privacidade - '.$title;
+		case 'lgpd':
+			$file = 'page_lgpd.php';
+			$title_page = 'LGPD - '.$title;
 			break;
 		
 		default :

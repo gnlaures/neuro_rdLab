@@ -1041,6 +1041,10 @@ $c_subMenuHover_defaultHeight: 30px;
     @include roundedAll();
     overflow: hidden;
 }
+.c-video {
+    @include roundedAll();
+    overflow: hidden;
+}
 
 // grid e tabs
 .c-responsiveGrid {
@@ -1401,6 +1405,69 @@ $c_subMenuHover_defaultHeight: 30px;
         }
         span {
             text-decoration: underline;
+        }
+    }
+}
+.c-cardCertified {
+    @include transition();
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    &__figure {
+        @include transforms(rotate(-45deg), center);
+        @include transition();
+        @include shadowDefault();
+        @include roundedAll(50%);
+        @include flexWidth(140px);
+        background: $white;
+        display: flex;
+        height: 140px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        border: 2px solid transparent;
+        border-top-color: $primary;
+        border-right-color: $primary;
+        img {
+            @include transforms(rotate(45deg), center);
+            @include transition();
+            display: block;
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+        }
+    }
+    &__title {
+        @include transition();
+        margin-top: 20px;
+        h2 {
+            @include paragrafos($fw: $fwRegular, $tc: $primary);
+            text-align: center;
+        }
+        p {
+            @include paragrafos();
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+    
+    &:hover {
+        .c-cardCertified__figure {
+            @include transforms(rotate(180deg), center);
+            border-top: 1.5px solid;
+            border-bottom: 1.5px solid;
+            border-left: 1.5px solid;
+            border-right: 1.5px solid;
+            background: $white;
+            border-color: $analiseAgua;
+            img {
+                @include transforms(rotate(-180deg) scale(1.1), center);
+            }
+        }
+        .c-cardCertified__title {
+            h2 {
+                color: $primary;
+            }
         }
     }
 }

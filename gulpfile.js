@@ -39,8 +39,9 @@ var jsLibraries__files = [
     'libraries/_forms/forms.min.js',
     'libraries/laures/laures.js',
     'libraries/fancybox/jquery.fancybox.min.js',
-    'libraries/swiper/swiper.min.js',
-    'libraries/splide/splide.min.js',
+    'libraries/enllax/jquery.enllax.min.js',
+    //'libraries/swiper/swiper.min.js',
+    //'libraries/splide/splide.min.js',
     'libraries/aos/aos.js',
 ];
 gulp.task('jsLibraries', function(done) {
@@ -54,9 +55,9 @@ gulp.task('jsLibraries', function(done) {
 //Libraries - CSS Files
 var cssLibraries__files = [
     'libraries/fancybox/jquery.fancybox.min.css',
-    'libraries/swiper/swiper.min.css',
-    'libraries/splide/splide.min.css',
-    'libraries/splide/splide-skyblue.min.css',
+    //'libraries/swiper/swiper.min.css',
+    //'libraries/splide/splide.min.css',
+    //'libraries/splide/splide-skyblue.min.css',
     'libraries/aos/aos.css',
 ];
 gulp.task('cssLibraries', function(done) {

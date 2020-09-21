@@ -21,6 +21,63 @@
     }
 }
 
+// enllax
+@media screen and (max-width: 1450px) {
+    .enllax.--h {
+        width: 420px;
+        height: 470px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .enllax.--g,
+    .enllax.--j {
+        display: none;
+    }
+    .enllax.--h {
+        width: 380px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .enllax.--a {
+        display: none;
+    }
+    .enllax.--h {
+        top: 200px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .enllax.--h {
+        left: 10%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .enllax.--b,
+    .enllax.--c,
+    .enllax.--d,
+    .enllax.--e,
+    .enllax.--i {
+        display: none;
+    }
+}
+@media screen and (max-width: 620px) {
+    .enllax.--h {
+        left: 1%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .enllax.--h {
+        left: -40px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .enllax.--h {
+        width: 260px;
+        height: 300px;
+        left: 10px;
+    }
+}
+
+
 // l-nav
 @media screen and (max-width: 1070px) {
     .l-nav {

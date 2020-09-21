@@ -6,12 +6,12 @@
 		</figure>
 		<span class="hrVertical"></span>
 		<ul class="l-footer__menu">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Empresa</a></li>
-			<li><a href="#">Certificações</a></li>
-			<li><a href="#">Análises</a></li>
-			<li><a href="#">Contato</a></li>
-			<li><a href="#">Carreiras</a></li>
+			<li><a href="home">Home</a></li>
+			<li><a href="institucional">Empresa</a></li>
+			<li><a href="certificacoes">Certificações</a></li>
+			<li><a href="analises">Análises</a></li>
+			<li><a href="contato">Contato</a></li>
+			<li><a href="carreiras">Carreiras</a></li>
 			<li><a href="#">Resultados Online</a></li>
 			<li><a href="#">Solicitar análise</a></li>
 		</ul>
@@ -55,8 +55,8 @@
 		<span class="hrHorizontal"></span>
 		<div class="l-footer__copyright">
 			<p>Copyright © 2020 | Todos os direitos reservados à Rio Deserto<br><strong>LGPD Rio Deserto:</strong> <a
-						href="#">Saiba como cuidamos e para que utilizamos seus dados.</a></p>
-			<p>by <a href="#"><strong>Neurodigital</strong></a></p>
+						href="lgpd">Saiba como cuidamos e para que utilizamos seus dados.</a></p>
+			<p>by <a href="http://www.neurodigital.com.br"><strong>Neurodigital</strong></a></p>
 		</div>
 	</div>
 </footer>

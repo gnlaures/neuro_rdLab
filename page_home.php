@@ -1,7 +1,12 @@
 <header class="l-headerHome">
 	<img src="media/img/content/header_home.png" class="l-headerHome__banner">
-	<div class="js-enllaxElement ellax enllax--1"></div>
-	<div class="js-enllaxElement ellax enllax--2"></div>
+	<div class="js-enllaxElement enllax --a" data-enllax-ratio="0.25" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+	<div class="js-enllaxElement enllax --b" data-enllax-ratio="0.25" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+	<div class="js-enllaxElement enllax --c" data-enllax-ratio="0.25" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+	<div class="js-enllaxElement enllax --d" data-enllax-ratio="0.20" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+	<div class="js-enllaxElement enllax --e" data-enllax-ratio="0.25" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+	<div class="js-enllaxElement enllax --f" data-enllax-ratio="0.15" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+	<div class="js-enllaxElement enllax --g" data-enllax-ratio="0.5" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
 	<div class="u-container u-containerFlex">
 		<div class="l-headerHome__content">
 			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit sulpa magna.</h1>
@@ -117,6 +122,9 @@
 	<div class="l-endHomePage">
 		<section class="s-moreThan40Years">
 			<div class="curveEffect --moreThanTop"></div>
+			<div class="js-enllaxElement enllax --h" data-enllax-ratio="0.10" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+			<div class="js-enllaxElement enllax --i" data-enllax-ratio="0.5" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+			<div class="js-enllaxElement enllax --j" data-enllax-ratio="0.35" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
 			<div class="u-container u-containerFlex">
 				<div class="s-moreThan40Years__figure">
 					<img src="media/img/content/sobre_1.png" alt="Mais de 40 anos de história">

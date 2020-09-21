@@ -2,7 +2,120 @@
 <main id="page__institucional" class="l-innerPage">
 	<section class="s-company">
 		<div class="u-container">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, doloremque eaque iste, magnam nostrum, officiis perferendis repellendus sed sequi tempora vero voluptate. Amet aut cum dignissimos dolor dolores ducimus, esse harum incidunt ipsa magni molestias, possimus quaerat quasi quos reprehenderit sed sint ullam! Aperiam beatae dolor recusandae voluptate! Architecto assumenda aut blanditiis commodi debitis doloribus ea earum et facere, harum impedit in ipsum laudantium minus nihil, nisi odio possimus quasi, quidem quis rem reprehenderit soluta ullam. Atque dolore doloremque fugiat iste maxime omnis repellat. Laudantium provident quidem vel velit! Culpa dolor et facere inventore ipsum natus nemo nesciunt nostrum, quisquam rerum suscipit temporibus voluptate voluptates. Alias corporis dolor, dolorem doloremque dolorum ducimus ea, ex explicabo illum minus modi natus nulla odit, praesentium quod recusandae sequi! Beatae ex illo laboriosam molestiae nam, neque nihil omnis quam quo ut. Delectus hic labore maxime perferendis suscipit temporibus, unde. Aliquid delectus dignissimos eius est, eum eveniet, facere ipsa itaque necessitatibus possimus saepe sed sit sunt temporibus totam vel, voluptas. Accusamus amet asperiores atque cupiditate debitis eligendi enim eos error esse et explicabo, fuga harum iste laudantium libero magnam molestiae nesciunt non odit optio pariatur porro possimus, quia quibusdam quidem repellendus sapiente sed soluta suscipit tempore temporibus unde, vitae voluptatem. Aperiam dignissimos earum eos facilis fugiat laboriosam quis repellendus tenetur ullam vitae? Distinctio id iste odio optio. A, ad amet architecto asperiores aspernatur at atque aut beatae commodi consequatur corporis earum error et ex exercitationem facilis fugit hic illum iste laboriosam magni mollitia, necessitatibus nesciunt nisi numquam, perspiciatis praesentium quisquam recusandae repellendus similique tempora unde veniam vitae. Ab accusamus accusantium ad alias aperiam aspernatur commodi deserunt eos exercitationem fuga illum in ipsam labore non numquam officiis, optio placeat porro praesentium qui repellendus repudiandae saepe suscipit temporibus totam ullam vel voluptatem. A adipisci amet aut beatae blanditiis, dolores ea error est fugiat inventore iure quidem quos sed totam veritatis voluptate voluptatum. Accusamus architecto laborum minus, natus nobis possimus quae ut. Accusamus autem corporis cupiditate doloribus ducimus ea error ex fugit, illum iusto laboriosam magni molestiae nemo nesciunt nulla numquam odit pariatur quidem recusandae repellat reprehenderit voluptas voluptatum? A atque cum cupiditate deleniti dolor est, et eveniet ex expedita facilis id ipsam minus officiis quam quidem rem repellat rerum sint tenetur veniam vero vitae voluptates voluptatibus. Accusamus architecto aspernatur praesentium? Alias eveniet id mollitia odit quia, quo reiciendis sequi tempore. Alias atque ducimus et exercitationem magni numquam tempora temporibus unde! Adipisci alias animi aperiam asperiores beatae blanditiis dignissimos ea eum eveniet expedita fuga ipsam laborum, libero modi molestiae nam nemo officiis perspiciatis reiciendis saepe sapiente soluta tempore veritatis vero voluptatibus. Beatae exercitationem facilis magnam veritatis vero! Accusantium ad adipisci alias, architecto aspernatur consequuntur debitis delectus deserunt dolor dolore doloremque doloribus ducimus, enim, esse eveniet facilis id impedit molestiae mollitia necessitatibus nesciunt nostrum officia pariatur perferendis placeat porro quae quaerat qui quia quis recusandae saepe similique sit soluta tempore temporibus veritatis? A accusantium asperiores aspernatur aut consequatur consequuntur deleniti dignissimos doloremque dolores est explicabo impedit iusto magni necessitatibus, nemo nulla officia omnis pariatur porro, possimus qui quibusdam quis quisquam sequi similique temporibus tenetur vero! Aliquid animi architecto cumque debitis dolor dolorem fuga fugiat fugit iusto laboriosam laborum modi molestiae mollitia necessitatibus nesciunt nihil non nostrum nulla officia officiis perspiciatis quam quasi recusandae repellat, reprehenderit tempora tempore totam veniam voluptates voluptatum! Accusamus accusantium fugit magni molestiae reprehenderit soluta, velit. At dolorum nam nesciunt odio perferendis qui, recusandae similique. Alias animi, consequatur cum cumque deleniti dignissimos dolores eius eos ipsam iure natus quaerat, quas repellat sit veritatis. Debitis est harum id molestiae, numquam officiis perferendis ullam? Cum distinctio ducimus eum quae! Accusamus aliquam asperiores blanditiis consequuntur corporis cum exercitationem expedita, ipsam, mollitia natus nobis odio officia omnis quasi recusandae sint sit tenetur vero. Ab accusantium atque aut consequatur corporis debitis deserunt dolorem doloremque dolorum exercitationem explicabo facilis impedit ipsam itaque maxime neque numquam omnis optio porro, quia quis quisquam sed soluta ut vel, vero voluptatem. Asperiores blanditiis dicta dolorum iste laudantium magnam modi officia optio, quas quasi quia, quidem tenetur ut. Ab aliquid at deleniti eos fugiat fugit id in ipsam ipsum laborum odio placeat quam quasi qui, quibusdam recusandae rem rerum soluta sunt tempore temporibus vero, voluptas. Aperiam debitis excepturi molestiae mollitia perspiciatis quibusdam veniam. A dolore doloribus iure minus nemo perspiciatis praesentium quaerat! Accusamus commodi cum cupiditate dolor eius eos error, et harum, hic illo ipsa ipsam itaque iure libero minima minus molestiae non numquam officia officiis rerum tempora tenetur ullam voluptatem voluptatibus. Accusantium ad aliquam aliquid animi aperiam aspernatur assumenda aut consectetur consequatur doloribus dolorum ea eaque eius, exercitationem explicabo hic illo illum inventore ipsam iure iusto maiores maxime minus modi molestias nisi nobis optio quam quas quibusdam quod rem sequi tempore velit veritatis vitae voluptate! A alias aliquam aperiam assumenda at aut consectetur doloribus eius enim ex, facere hic impedit ipsam iure iusto laboriosam maiores modi nemo nihil odio omnis pariatur perferendis quam quia quisquam quod quos recusandae reiciendis saepe soluta tempora tempore unde velit vero voluptate voluptatibus voluptatum! Alias deleniti dolore doloribus earum, eos facilis incidunt laboriosam minima quos veritatis! Accusamus adipisci aliquid at consequuntur cum earum eius eligendi et excepturi facere fugiat fugit incidunt ipsam itaque laudantium nemo, non nulla numquam quaerat quas quibusdam repudiandae soluta unde, veritatis voluptas. Adipisci asperiores, autem consequuntur cumque debitis ea facilis hic ipsam nemo numquam provident quasi quia quibusdam saepe voluptas. Dicta maxime odit qui repellat vel? Adipisci libero minus qui! Alias aut consequatur cupiditate delectus distinctio et harum in inventore laboriosam, minus modi numquam possimus qui quibusdam ratione repudiandae tempore unde vel. At, corporis ea laboriosam neque numquam suscipit temporibus. Animi, beatae consectetur consequatur consequuntur debitis deserunt dignissimos dolor dolore dolores ea eius et eum excepturi exercitationem explicabo fuga inventore, ipsam iure magnam molestiae molestias mollitia nam officiis perspiciatis placeat quae quas quibusdam quisquam quos reiciendis rem repellendus sit suscipit totam vel vero voluptas? Beatae delectus eius eos eveniet expedita fugiat laborum odio. Consequatur delectus exercitationem illo ipsa vitae. A eaque eos exercitationem id in laboriosam laudantium, magni minima nam, perferendis perspiciatis provident qui quia quo quod recusandae sapiente sequi unde veniam veritatis? Accusantium at corporis dolores dolorum, fuga nemo nesciunt numquam officia perferendis quae quaerat quam tempore vel? Consequuntur cum dicta dolore dolorem ducimus eius esse harum ipsam iusto libero magnam mollitia necessitatibus nesciunt omnis pariatur perspiciatis placeat provident quam quibusdam quo quod, reprehenderit repudiandae tempora, tempore vero vitae voluptates. Blanditiis consequatur distinctio ducimus maxime necessitatibus neque officia, pariatur quia quibusdam tempore? Debitis deleniti deserunt ducimus earum eius fuga labore laudantium, molestias, nihil optio provident, quas quasi quibusdam recusandae rem? Ducimus expedita, ipsam maxime mollitia quaerat recusandae suscipit. Adipisci iste nostrum nulla sint vitae. Ab adipisci amet at deleniti dicta doloribus ea earum enim, eos excepturi labore nam obcaecati odio officia perferendis, quaerat quia quidem quisquam reiciendis reprehenderit, repudiandae sequi tempore tenetur totam veniam! Architecto atque cumque distinctio dolorem doloribus error esse et incidunt ipsum iure magnam maxime minus natus necessitatibus neque non, nostrum numquam perferendis quia quo repellat sequi suscipit tempora, totam ut vel vitae. A accusamus dolores, doloribus eveniet hic mollitia optio placeat sint sit velit? Adipisci asperiores aspernatur, atque eos expedita explicabo fuga illo illum impedit incidunt itaque laudantium recusandae repellendus saepe vero?</p>
+			<div class="featuredText">
+				<h2>Mais de 40 anos</h2>
+				<p>Com mais de quatro décadas de história, a Divisão Laboratório está localizada no município de Urussanga / Santa Catarina e faz parte do Grupo Rio Deserto.</p>
+				<p>Possui profissionais	capacitados para a realização de análises químicas e físico -químicas em geral, sendo uma organização de referência no sul catarinense.</p>
+			</div>
+			<div class="c-video u-aspectRatio u-aspectRatio--16-9">
+				<iframe src="https://www.youtube.com/embed/oOJBPygQeME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="listPolitics">
+				<h2>Política de Gestão</h2>
+				<ul class="c-responsiveGrid"
+						data-maxw-breaks="1200, 600"
+						data-maxw-cols="2, 1"
+						data-cols-init="4">
+					<li>
+						<img src="media/img/icons/icon_politic_1.png" alt="">
+						<h3>Clientes</h3>
+						<p>Satisfação de seus clientes que é a razão de sua existência, identificando e atendendo os requisitos aplicáveis.</p>
+					</li>
+					<li>
+						<img src="media/img/icons/icon_politic_2.png" alt="">
+						<h3>Colaboradores e Fornecedores</h3>
+						<p>Colaboradores e Fornecedores: Desenvolvimento de seus colaboradores e fornecedores.
+						</p>
+					</li>
+					<li>
+						<img src="media/img/icons/icon_politic_3.png" alt="">
+						<h3>Segurança</h3>
+						<p>Atendimento a legislação aplicável e adotando procedimentos para prevenção e redução de lesões, acidentes e doenças ocupacionais</p>
+					</li>
+					<li>
+						<img src="media/img/icons/icon_politic_4.png" alt="">
+						<h3>Meio Ambiente</h3>
+						<p>Respeito à legislação ambiental e utilização racional de recursos naturais, adotando procedimentos para prevenção da poluição, especialmente ligados a recursos hídricos e resíduos sólidos.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="listPhotos">
+				<ul class="c-responsiveGrid"
+						data-maxw-breaks="1000, 780, 400"
+						data-maxw-cols="4, 3, 2"
+						data-cols-init="5">
+					<li>
+						<a href="media/img/content/rdlab/1.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/1.jpg" alt="Foto - 01">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/2.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/2.jpg" alt="Foto - 02">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/3.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/3.jpg" alt="Foto - 03">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/4.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/4.jpg" alt="Foto - 04">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/5.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/5.jpg" alt="Foto - 05">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/6.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/6.jpg" alt="Foto - 06">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/7.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/7.jpg" alt="Foto - 07">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/8.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/8.jpg" alt="Foto - 08">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/9.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/9.jpg" alt="Foto - 09">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/10.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/10.jpg" alt="Foto - 10">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/11.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/11.jpg" alt="Foto - 11">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/12.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/12.jpg" alt="Foto - 12">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/13.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/13.jpg" alt="Foto - 13">
+						</a>
+					</li>
+					<li>
+						<a href="media/img/content/rdlab/14.jpg" data-fancybox="galeria" class="u-aspectRatio u-aspectRatio--3-2">
+							<img src="media/img/content/rdlab/14.jpg" alt="Foto - 14">
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 	<?php include("components/l_footer.php"); ?>

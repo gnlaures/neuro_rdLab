@@ -1,5 +1,6 @@
-<main id="page__termosUso">
-    <section class="s-onlyText">
+<?php $h1 = 'Proteção de Dados'; include('components/l_headerInner.php'); ?>
+<main id="page__lgpd" class="l-innerPage">
+	<section class="s-onlyText">
 		<div class="u-container">
 			<h2>Título</h2>
 			<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit.</a> Quisque eu tellus facilisis, <strong>pellentesque nunc sed</strong>, scelerisque nulla. Nunc sed hendrerit tortor. Morbi porta, nisl et lacinia viverra, eros magna dignissim erat, non volutpat sapien ligula vel augue. Aliquam dignissim lobortis molestie. Phasellus pretium libero ut dolor elementum congue. Donec et cursus ex, aliquam tincidunt metus. Quisque sit amet lacinia diam. Aliquam erat volutpat. Sed efficitur velit a mi semper, id aliquet ante efficitur. Aenean congue lectus ac mauris pharetra ornare.</p>
@@ -39,4 +40,5 @@
 			<p>Nullam lacinia elit at neque mollis tincidunt. Nullam maximus, urna eu vehicula bibendum, turpis dolor tincidunt nisi, at commodo orci felis convallis odio. Sed in tellus ante. Fusce luctus porta ipsum non congue. Aliquam in turpis nec libero volutpat posuere. Vivamus tristique, lorem vitae efficitur condimentum, tortor elit congue nibh, lacinia scelerisque sem elit sed odio. Aliquam a dignissim leo. Duis non eros dapibus, fringilla augue at, interdum tortor. Duis ullamcorper odio nisi, sit amet semper odio fringilla id. Sed vitae leo erat. Duis laoreet a ipsum lobortis semper. Aenean porta justo eget eros posuere consequat. Morbi tempus mauris non nisi ornare, quis auctor urna congue. Suspendisse lorem metus, volutpat eu fermentum et, rutrum et neque. Sed tristique dolor vitae tellus aliquam placerat.</p>
 		</div>
 	</section>
+	<?php include("components/l_footer.php"); ?>
 </main>

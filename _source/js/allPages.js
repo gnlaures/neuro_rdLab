@@ -9,9 +9,10 @@ $(window).on('hashchange', function () {
     initGettersAndSetters();
 });
 
-// init AOS
+// js inits
 if (is.not.ie()) {
     AOS.init();
+    $(".js-enllaxElement").enllax();
 } else {
     $('*').removeAttr("data-aos");
 }
@@ -182,23 +183,9 @@ if ($('.l-nav').length) {
     });
 
 }
-if ($('.l-headerHome').length) {
-    var swiper__headerHome = new Swiper ('.swiper__headerHome', {
-        speed: 400,
-        spaceBetween: 0,
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: true,
-        },
-    })
-}
 
 // s
-// if ($('.s-sectionX').length) {}
-
-// #page
-if ($('#page_contato').length) {
+if ($('.s-contact').length) {
     $("#formContato").validate({
         submitHandler: function (form) {
             //SUBMIT form
@@ -249,7 +236,7 @@ if ($('#page_contato').length) {
         });
     });
 }
-if ($('#page__carreiras').length) {
+if ($('.s-carrers').length) {
     var classActive = 'is-active';
     var elRh = {
         hero: $('.job__hero'),
@@ -428,72 +415,73 @@ if ($('#page__carreiras').length) {
         $('.stepCarrer h3 span').remove();
         $('#formCarrers .liJobs').remove();
     }
-}
-if ($('#formCarrers').length) {
-    $(document).on('blur', '#formCarrers_cpf', function () {
-        var cpf = $(this).val();
-        $.ajax({
-            type: "POST",
-            data: {cpf: cpf},
-            url: "ajax-cpfCurriculos.php",
-            success: function (result) {
-                var res = result.split('|');
-                if(res[1] == 'S'){
-                    $("#formCarrers_nome").val(res[2]);
-                    $("#formCarrers_email").val(res[3]);
-                    $("#formCarrers_telefone").val(res[4]);
-                    $("#formContato_estado").val(res[5]);
-                    $("#formCarrers_endereco").val(res[6]);
-                    $("#formCarrers_mensagem").text(res[7]).val(res[7]);
-                    $("#formContato_cidade").html(res[8]);
-                    $("#formCarrers_anexo--hidden").removeAttr('required');
-                    $("#formCarrers_anexo--hidden").removeAttr('aria-required');
-                }else{
-                    $("#formCarrers_anexo--hidden").attr('required','required');
-                    $("#formCarrers_anexo--hidden").attr('aria-required', 'true');
-                }
-            }
-        });
-    });
-    $("#formCarrers").validate({
-        submitHandler: function (form) {
-            //SUBMIT form
-            $(form).ajaxSubmit({
-                //target: 'status-envio',
-                beforeSubmit: function () {
-                    $('#formCarrers .c-stsSend').removeClass('u-dnone');
-                    $('#formCarrers .c-stsSend__feedback--load').removeClass('u-dnone');
-                    $('#formCarrers #btnCarrers').attr('disabled', true);
-                },
+
+    if ($('#formCarrers').length) {
+        $(document).on('blur', '#formCarrers_cpf', function () {
+            var cpf = $(this).val();
+            $.ajax({
+                type: "POST",
+                data: {cpf: cpf},
+                url: "ajax-cpfCurriculos.php",
                 success: function (result) {
-                    result = result.split('|');
-                    if(parseInt(result[1]) == 1){
-                        $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
-                        $('#formCarrers .c-stsSend__feedback--success').removeClass('u-dnone');
-                        setTimeout(function(){
-                            $('#formCarrers #btnCarrers').attr('disabled',false);
-                            $("#formCarrers .field").val('');
-                            $("#formCarrers textarea").val('').html('');
-                            $("#formCarrers_anexo").attr('placeholder','Selecione seu currículo');
-                            $("#formCarrers .field").removeClass('error');
-                            $('#formCarrers .listOfSelectedJobs').html('<span>Nenhuma vaga selecionada</span>');
-                            $('#formCarrers .c-stsSend').addClass('u-dnone');
-                            $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
-                        },2000);
+                    var res = result.split('|');
+                    if(res[1] == 'S'){
+                        $("#formCarrers_nome").val(res[2]);
+                        $("#formCarrers_email").val(res[3]);
+                        $("#formCarrers_telefone").val(res[4]);
+                        $("#formContato_estado").val(res[5]);
+                        $("#formCarrers_endereco").val(res[6]);
+                        $("#formCarrers_mensagem").text(res[7]).val(res[7]);
+                        $("#formContato_cidade").html(res[8]);
+                        $("#formCarrers_anexo--hidden").removeAttr('required');
+                        $("#formCarrers_anexo--hidden").removeAttr('aria-required');
                     }else{
-                        $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
-                        $('#formCarrers .c-stsSend__feedback--error').removeClass('u-dnone');
-                        $('#formCarrers .c-stsSend__feedback--error span').html(result[2]);
-                        setTimeout(function () {
-                            $('#formCarrers .c-stsSend').addClass('u-dnone');
-                            $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
-                            $('#formCarrers #btnCarrers').attr('disabled', false);
-                        }, 3000);
+                        $("#formCarrers_anexo--hidden").attr('required','required');
+                        $("#formCarrers_anexo--hidden").attr('aria-required', 'true');
                     }
                 }
             });
-        }
-    });
+        });
+        $("#formCarrers").validate({
+            submitHandler: function (form) {
+                //SUBMIT form
+                $(form).ajaxSubmit({
+                    //target: 'status-envio',
+                    beforeSubmit: function () {
+                        $('#formCarrers .c-stsSend').removeClass('u-dnone');
+                        $('#formCarrers .c-stsSend__feedback--load').removeClass('u-dnone');
+                        $('#formCarrers #btnCarrers').attr('disabled', true);
+                    },
+                    success: function (result) {
+                        result = result.split('|');
+                        if(parseInt(result[1]) == 1){
+                            $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
+                            $('#formCarrers .c-stsSend__feedback--success').removeClass('u-dnone');
+                            setTimeout(function(){
+                                $('#formCarrers #btnCarrers').attr('disabled',false);
+                                $("#formCarrers .field").val('');
+                                $("#formCarrers textarea").val('').html('');
+                                $("#formCarrers_anexo").attr('placeholder','Selecione seu currículo');
+                                $("#formCarrers .field").removeClass('error');
+                                $('#formCarrers .listOfSelectedJobs').html('<span>Nenhuma vaga selecionada</span>');
+                                $('#formCarrers .c-stsSend').addClass('u-dnone');
+                                $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
+                            },2000);
+                        }else{
+                            $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
+                            $('#formCarrers .c-stsSend__feedback--error').removeClass('u-dnone');
+                            $('#formCarrers .c-stsSend__feedback--error span').html(result[2]);
+                            setTimeout(function () {
+                                $('#formCarrers .c-stsSend').addClass('u-dnone');
+                                $('#formCarrers .c-stsSend__feedback').addClass('u-dnone');
+                                $('#formCarrers #btnCarrers').attr('disabled', false);
+                            }, 3000);
+                        }
+                    }
+                });
+            }
+        });
+    }
 }
 
 // w

@@ -157,3 +157,9 @@
 	@include opacity($opacity: 0);
 	visibility: hidden;
 }
+
+@mixin bgimage($size: contain, $position: center) {
+	background-repeat: no-repeat;
+	background-position: $position;
+	background-size: $size;
+}
